@@ -58,10 +58,14 @@ endif
 set clipboard=unnamed,unnamedplus
 let g:EasyClipShareYanks = 1
 
-source /usr/share/doc/fzf/examples/fzf.vim
-
 syntax enable
 set background=dark
 colorscheme solarized
 
 let g:airline_powerline_fonts = 1
+
+if has("win64") || has("win32") || has("win16")
+    set guifont=CaskaydiaCove_Nerd_Font_Mono:h13
+else
+    set guifont=CaskaydiaCove\ Nerd\ Font\ Mono\ 13
+endif
