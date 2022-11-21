@@ -1,0 +1,30 @@
+[submodule "pack/bchifu/start/fzf"]
+	path = pack/bchifu/start/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "pack/bchifu/start/fzf.vim"]
+	path = pack/bchifu/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/bchifu/start/vim-fugitive"]
+	path = pack/bchifu/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "pack/bchifu/start/vim-colors-solarized"]
+	path = pack/bchifu/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "pack/bchifu/start/vim-airline"]
+	path = pack/bchifu/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/bchifu/start/vim-airline-themes"]
+	path = pack/bchifu/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/bchifu/start/vim-commentary"]
+	path = pack/bchifu/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "pack/bchifu/start/vim-unimpaired"]
+	path = pack/bchifu/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "pack/bchifu/start/vim-endwise"]
+	path = pack/bchifu/start/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "pack/bchifu/start/vim-easyclipe"]
+	path = pack/bchifu/start/vim-easyclipe
+	url = https://github.com/svermeulen/vim-easyclip.git
