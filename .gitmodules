@@ -28,3 +28,12 @@
 [submodule "pack/bchifu/start/vim-easyclipe"]
 	path = pack/bchifu/start/vim-easyclipe
 	url = https://github.com/svermeulen/vim-easyclip.git
+[submodule "pack/bchifu/start/coc.nvim"]
+	path = pack/bchifu/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "pack/bchifu/start/nerdtree"]
+	path = pack/bchifu/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "pack/bchifu/start/autopairs"]
+	path = pack/bchifu/start/autopairs
+	url = https://github.com/jiangmiao/auto-pairs.git

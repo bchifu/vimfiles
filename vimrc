@@ -61,11 +61,29 @@ let g:EasyClipShareYanks = 1
 syntax enable
 set background=dark
 colorscheme solarized
+set rnu
+filetype plugin indent on
 
 let g:airline_powerline_fonts = 1
 
 if has("win64") || has("win32") || has("win16")
-    set guifont=CaskaydiaCove_Nerd_Font_Mono:h13
+    set guifont=CaskaydiaCove_NF_Mono:h13
 else
     set guifont=CaskaydiaCove\ Nerd\ Font\ Mono\ 13
 endif
+
+let g:coc_node_path = '~/.nvm/versions/node/v18.12.1/bin/node'
+" use <tab> for trigger completion and navigate to the next complete item
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+
+nnoremap <C-b> :NERDTreeToggle<CR>
+inoremap <C-b> :NERDTreeToggle<CR>
+
