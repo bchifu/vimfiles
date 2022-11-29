@@ -68,11 +68,12 @@ let g:airline_powerline_fonts = 1
 
 if has("win64") || has("win32") || has("win16")
     set guifont=CaskaydiaCove_NF_Mono:h13
+    let g:coc_node_path = 'C:\Program Files\nodejs\node'
 else
     set guifont=CaskaydiaCove\ Nerd\ Font\ Mono\ 13
+    let g:coc_node_path = '~/.nvm/versions/node/v18.12.1/bin/node'
 endif
 
-let g:coc_node_path = '~/.nvm/versions/node/v18.12.1/bin/node'
 " use <tab> for trigger completion and navigate to the next complete item
 function! CheckBackspace() abort
   let col = col('.') - 1
