@@ -46,3 +46,6 @@
 [submodule "pack/bchifu/start/vim-snippets"]
 	path = pack/bchifu/start/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "pack/bchifu/start/vim-easymotion"]
+	path = pack/bchifu/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
